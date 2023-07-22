@@ -24,7 +24,7 @@ int ComputeAckermannFunction(int numberM, int numberN)
 
 int CheckForNumber(string value, string prompt)
 {
-    if (int.TryParse(value, out int number) && number > 0) return number;
+    if (int.TryParse(value, out int number) && number >= 0) return number;
     else
     {
         Console.WriteLine("Введено некорректное значение");
