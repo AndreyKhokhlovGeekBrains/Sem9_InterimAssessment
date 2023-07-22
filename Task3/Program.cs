@@ -11,7 +11,7 @@ string promptN = "Введите число N: ";
 Console.WriteLine(promptN);
 int numberN = CheckForNumber(Console.ReadLine(), promptN);
 
-Console.Write(ComputeAckermannFunction(numberM, numberN));
+Console.WriteLine($"Результат функции: {ComputeAckermannFunction(numberM, numberN)}");
 
 //--//--//
 
